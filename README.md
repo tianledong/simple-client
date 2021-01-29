@@ -1,2 +1,0 @@
-The project 1 is not too hard. I used Python to make it. As Python has the eval function can calculate the result of string expressions, that made the project much easier.
-I had a little problem about the format of the string. Because I did not put '\n' at end the string, the service cannot recognize the message. 

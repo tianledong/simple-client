@@ -1,0 +1,7 @@
+The project 1 is not too hard. I used Python to make it. As Python has the eval function can calculate the result of string expressions, that made the project much easier.
+I had a little problem about the format of the string. Because I did not put '\n' at end the string, the service cannot recognize the message. It took a while to figure it out.
+Also, I misunderstood the meaning of the description. I thought the server would send us some wrong syntax data. But I was wrong. We need to see if the message is full not by see if it end by '\n'. If not, means the message is incomplete and we need to keep receiving.
+
+If it is not ssl, we just create a normal socket and connect to the server. But, if we need to make ssl connects, we need to wrap it. It took a while to understand how it works and set parameters.
+
+I put read arguments and read messages in different functions instead of the main function to make the code more readable and clean.
